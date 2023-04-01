@@ -1,0 +1,13 @@
+:root {
+    --color-griff-dark: #a8833e;
+    --color-griff: #dfb15c;
+    --color-slyth-dark: #00249c;
+    --color-slyth: #003cff;
+    --color-black: #000;
+    --color-gray: #999;
+    --font-size-small: 16px;
+    --font-family-mainly: 'Times New Roman', Times, serif;
+    --font-bold: 600;
+
+    --transition: .5s;
+}

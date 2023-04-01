@@ -6,23 +6,76 @@
 :root {
   --color-white: #fff;
   --color-black: #000;
+  --color-yellow: #ffff00;
   --color-dark-grey: #111111;
+  --color-blue: #6a83fb;
+  --color-violet: #ae72c2;
+  --color-griff-dark: #a8833e;
+  --color-griff: #dfb15c;
+  --color-slyth-dark: #00249c;
+  --color-slyth: #003cff;
 
+  --spacing-ultrasmall: 5px;
+  --spacing-small: 10px;
   --spacing-medium: 20px;
+  --spacing-large: 30px;
 
   --font-family-main: Harry Potter;
+  --font-family-second: 'Times New Roman', Times, serif;
+
+  --transition: .4s;
+  --font-size-main: 32px;
+  --font-size-header: 32px;
+
+  --margin-list: 7px;
+  --width-max: 1200px;
 
   --border-radius-small: 3px;
+  --border-radius-medium: 10px;
+  --border-radius-large: 15px;
+
+  --text-shadow-yellow:
+    0 0 2px var(--color-white),
+    0 0 40px var(--color-yellow);
+
+  --text-shadow-black:
+    0 0 1px var(--color-black),
+    0 0 25px var(--color-black);
+
+  --theme-default-header: #cccc46;
+  --theme-default-bgimage: url(@images/bg.jpg);
+
+  --404-iamge: url(https://w7.pngwing.com/pngs/642/824/png-transparent-404-error-computing-technology-icon-thumbnail.png);
 }
 
 body {
-  background-color: var(--color-dark-grey);
+  background-color: var(--color-griff-dark);
   font-family: var(--font-family-main);
-  font-size: 32px;
+  font-size: var(--font-size-main);
   margin: 0;
   padding: 0;
+  background-image: var(--theme-default-bgimage);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  background-attachment: fixed;
+  box-sizing: border-box;
 }
 
 body p {
   margin: 10px;
+}
+
+img {
+  display: block;
+}
+
+.header__text {
+  display: flex;
+  justify-content: center;
+  line-height: 1.7;
+  font-size: var(--font-size-header);
+  text-shadow: 0 0 2px var(--color-black);
+  color: var(--theme-default-header);
+  transition: color var(--transition);
 }

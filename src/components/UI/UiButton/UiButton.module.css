@@ -1,0 +1,40 @@
+.btn {
+    min-width: 100px;
+    margin: 0 var(--spacing-small);
+    padding: 5px;
+    border-radius: 10px;
+
+    font-size: var(--font-size-small);
+    font-family: var(--font-family-mainly);
+    font-weight: var(--font-bold);
+
+    background: none;
+    outline: none;
+
+    transition: var(--transition);
+
+    cursor: pointer;
+}
+
+.btn:disabled,
+.btn:disabled:hover {
+    background: var(--color-griff);
+    opacity: .3;
+    cursor: auto;
+}
+
+.griff {
+    background: var(--color-griff);
+    border: 1px solid var(--color-griff-dark);
+    color: var(--color-black);
+}
+
+.griff:hover {
+    background: var(--color-griff-dark);
+}
+
+.slyth {
+    background: var(--color-slyth);
+    border: 1px solid var(--color-slyth-dark);
+    color: var(--color-black);
+}
