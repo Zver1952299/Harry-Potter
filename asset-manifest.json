@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Harry-Potter/static/css/main.736b2d50.css",
+    "main.js": "/Harry-Potter/static/js/main.299fd92c.js",
+    "static/media/gryffindor.png": "/Harry-Potter/static/media/gryffindor.408fc994847caa5bf394.png",
+    "static/media/default.png": "/Harry-Potter/static/media/default.cef3fa17cde60986e3fd.png",
+    "static/media/slitherin.png": "/Harry-Potter/static/media/slitherin.34e7e43abe117dbd35b6.png",
+    "static/media/ravenclaw.png": "/Harry-Potter/static/media/ravenclaw.b7dc39b113f5c0090ca1.png",
+    "static/media/slitherin.jpg": "/Harry-Potter/static/media/slitherin.70f91c19ba4f1ffd4aec.jpg",
+    "static/media/hufflepuff.png": "/Harry-Potter/static/media/hufflepuff.3e314542e3c07794edd3.png",
+    "static/media/hufflpuff.jpg": "/Harry-Potter/static/media/hufflpuff.78463632a421d58216b9.jpg",
+    "static/media/ravenclaw.jpg": "/Harry-Potter/static/media/ravenclaw.e47dc3f91ad76b6f8fa8.jpg",
+    "static/media/gryffindor.jpg": "/Harry-Potter/static/media/gryffindor.778a013f98cf364af5c2.jpg",
+    "static/media/404.png": "/Harry-Potter/static/media/404.eff47dfa03a036ed433d.png",
+    "static/media/bg.jpg": "/Harry-Potter/static/media/bg.594a8c74e2745d6a7b0f.jpg",
+    "static/media/NoImage.png": "/Harry-Potter/static/media/NoImage.12e64bc7efc49e58e460.png",
+    "static/media/ravenCart.jpg": "/Harry-Potter/static/media/ravenCart.b9d520175cf68261432d.jpg",
+    "static/media/slithCart.jpg": "/Harry-Potter/static/media/slithCart.f57bdaf3aa166627a640.jpg",
+    "static/media/gryffCart.jpg": "/Harry-Potter/static/media/gryffCart.c5ad309efc0218c6d5fb.jpg",
+    "static/media/hufflCart.jpg": "/Harry-Potter/static/media/hufflCart.4ec5ce3827597597b33a.jpg",
+    "static/media/HarryPotter.ttf": "/Harry-Potter/static/media/HarryPotter.0a6fdeb3007fdbf17e06.ttf",
+    "static/media/favorite.svg": "/Harry-Potter/static/media/favorite.de844edd037347a305c9c15cfec61dd6.svg",
+    "static/media/favoriteWhite.svg": "/Harry-Potter/static/media/favoriteWhite.7278363a92e491e3e355046b524d490d.svg",
+    "static/media/loading.svg": "/Harry-Potter/static/media/loading.ca36f1887ebc5fc7fff00b04f65f1e7d.svg",
+    "static/media/cross.svg": "/Harry-Potter/static/media/cross.da9c1a8120fddf6a4a6d9e2bdd97f7eb.svg",
+    "index.html": "/Harry-Potter/index.html",
+    "static/media/arrowLeft.svg": "/Harry-Potter/static/media/arrowLeft.2f685a2737e6c55a22b926d94163b26f.svg",
+    "static/media/bookmark.svg": "/Harry-Potter/static/media/bookmark.0476fe9e0be590cf9882654b38c6573f.svg",
+    "main.736b2d50.css.map": "/Harry-Potter/static/css/main.736b2d50.css.map",
+    "main.299fd92c.js.map": "/Harry-Potter/static/js/main.299fd92c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.736b2d50.css",
+    "static/js/main.299fd92c.js"
+  ]
+}
