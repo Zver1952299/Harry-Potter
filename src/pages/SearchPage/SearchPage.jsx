@@ -24,6 +24,7 @@ const SearchPage = () => {
         });
 
         let result;
+        // hello
 
         if (resFind.length) {
             result = resFind.map(item => {
