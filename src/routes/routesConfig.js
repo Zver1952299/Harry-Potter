@@ -3,6 +3,7 @@ import StudentsPage from "@pages/StudentsPage/StudentsPage";
 import PersonPage from "../pages/PersonPage/PersonPage";
 import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
 import FavoritesPage from "../pages/FavoritesPage/FavoritesPage";
+import SearchPage from "../pages/SearchPage/SearchPage";
 
 const routesConfig = [
     {
@@ -16,6 +17,10 @@ const routesConfig = [
     {
         path: '/students/:id',
         element: <PersonPage/>
+    },
+    {
+        path: '/search',
+        element: <SearchPage/>
     },
     {
         path: '/favorites',

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import styles from './StudentsList.module.css';
 
-const StudentsList = ({students, index}) => {
+const StudentsList = ({students, index = 0}) => {
     return (
         <ul className={styles.list__container}>
             {students.map(({name, id, image}) => 

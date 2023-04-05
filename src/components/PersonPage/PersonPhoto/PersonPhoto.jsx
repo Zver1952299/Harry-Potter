@@ -2,13 +2,10 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { addToFavorite, removeFromFavorite } from '../../store/favoriteSlice';
 
-import { setLocalStorage } from '../../../service/localStorage';
-
 import favoriteIcon from '@images/favorite.svg';
 import favoriteIconWhite from '@images/favoriteWhite.svg';
 
 import styles from './PersonPhoto.module.css';
-import { useEffect } from 'react';
 
 const PersonPhoto = ({ personId, personPhoto, personName, setPersonFavorite, personFavorite}) => {
     const dispatch = useDispatch();
@@ -19,10 +16,6 @@ const PersonPhoto = ({ personId, personPhoto, personName, setPersonFavorite, per
             image: b
         }}
     };
-
-    useEffect(() => {
-        setLocalStorage('store', payload(personId, personName, personPhoto))
-    }, [personId])
 
     console.log(payload(personId, personName, personPhoto));
 
@@ -38,7 +31,6 @@ const PersonPhoto = ({ personId, personPhoto, personName, setPersonFavorite, per
                 }
             }));
             setPersonFavorite(true);
-
         }
     }
 

@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 import WithErrorMessage from '@hoc/withErrorMessage';
 import StudentsList from '@components/StudentsPage/StudentsList/StudentsList';
-import PeopleNav from '../../components/PeopleNav/PeopleNav';
+import PeopleNav from '@components/PeopleNav/PeopleNav';
 import NoImage from '@images/NoImage.png';
-import UiLoaded from '../../components/UI/UiLoaded/UiLoaded';
+import UiLoaded from '@components/UI/UiLoaded/UiLoaded';
 import { getApiResourse } from '@service/network';
 import { API_STUDENTS, API_ALL_CHARACTERS } from '@constants/api';
 
@@ -38,7 +38,7 @@ const StudentsPage = ({setErrorApi}) => {
     }
 
     useEffect(() => {
-        getResource(API_STUDENTS);
+        getResource(API_ALL_CHARACTERS);
     }, [index]);
 
     let info;
@@ -54,7 +54,7 @@ const StudentsPage = ({setErrorApi}) => {
 
     return (
         <>
-            <h1 className='header__text'>Students</h1>
+            <h1 className='header__text'>Characters</h1>
             <PeopleNav
                 students={students} 
                 index={index} 

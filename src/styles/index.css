@@ -1,8 +1,3 @@
-@font-face {
-	font-family: 'Harry Potter'; 
-	src: url(../fonts/HarryPotter.ttf); 
-}
-
 :root {
   --color-white: #fff;
   --color-black: #000;
@@ -15,6 +10,16 @@
   --color-slyth-dark: #00249c;
   --color-slyth: #003cff;
 
+  --color-gryff: #740001;
+  --color-slith: #1a472a;
+  --color-raven: #0e1a40;
+  --color-huffl: #ecb939;
+
+  --color-shadow-gryff: #740001;
+  --color-shadow-slith: #1a472a;
+  --color-shadow-raven: #0e1a40;
+  --color-shadow-huffl: #ecb939;
+
   --spacing-ultrasmall: 5px;
   --spacing-small: 10px;
   --spacing-medium: 20px;
@@ -25,7 +30,7 @@
 
   --transition: .4s;
   --font-size-main: 32px;
-  --font-size-header: 32px;
+  --font-size-header: 46px;
 
   --margin-list: 7px;
   --width-max: 1200px;
@@ -42,10 +47,31 @@
     0 0 1px var(--color-black),
     0 0 25px var(--color-black);
 
-  --theme-default-header: #cccc46;
-  --theme-default-bgimage: url(@images/bg.jpg);
+  /* THEMES */
+  --theme-griff-header: #d3a625;
+  --theme-slith-header: #fff;
+  --theme-huff-header: #000;
+  --theme-cogt-header: #fff;
+  --theme-defa-header: #f5f5f5;
+  --theme-default-header: var(--theme-defa-header);
+
+  --theme-griff-bgimage: url(@images/gryffindor.jpg);
+  --theme-slith-bgimage: url(@images/slitherin.jpg);
+  --theme-huff-bgimage: url(@images/hufflpuff.jpg);
+  --theme-cogt-bgimage: url(@images/ravenclaw.jpg);
+  --theme-defa-bgimage: url(@images/bg.jpg);
+  --theme-default-bgimage: var(--theme-defa-bgimage);
 
   --404-iamge: url(https://w7.pngwing.com/pngs/642/824/png-transparent-404-error-computing-technology-icon-thumbnail.png);
+}
+
+@font-face {
+	font-family: 'Harry Potter'; 
+	src: url(../fonts/HarryPotter.ttf); 
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
 }
 
 body {
@@ -60,6 +86,7 @@ body {
   background-position: top left;
   background-attachment: fixed;
   box-sizing: border-box;
+  transition: all .8s;
 }
 
 body p {
@@ -73,9 +100,11 @@ img {
 .header__text {
   display: flex;
   justify-content: center;
+  margin: 0;
   line-height: 1.7;
+  letter-spacing: 2px;
   font-size: var(--font-size-header);
-  text-shadow: 0 0 2px var(--color-black);
+  /* text-shadow: 0 0 2px var(--color-black); */
   color: var(--theme-default-header);
   transition: color var(--transition);
 }
