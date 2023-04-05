@@ -1,6 +1,7 @@
 {
   "name": "hrapi",
   "version": "0.1.0",
+  "homepage": "https://zver1952299.github.io/Harry-Potter/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
